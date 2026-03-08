@@ -9,7 +9,44 @@
 </head>
 <body>
 
+  <div id="formCon" class="form-container">
+    <div class="form__img-container">
+      <picture class="form__img">
+        <source media="(min-width: 800px)" srcset="./assets/images/illustration-sign-up-desktop.svg"> 
+        <source media="(min-width: 380px)" srcset="./assets/images/illustration-sign-up-tablet.svg"> 
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt=""> 
+      </picture>
+    </div>
 
+    <div class="form__text-container">
+        <h1 class="form__title">Stay updated!</h1>
+        <p class="form__description">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="form__features-list">
+          <li class="form__feature">Product discovery and building what matters</li>
+          <li class="form__feature">Measuring to ensure updates are a success</li>
+          <li class="form__feature">And much more!</li>
+        </ul>
+        <div class="form__input-contianer">
+          <label for="form__email-input" class="form__input-label">Email address</label>
+          <label id="errorMes" class="form__error-mes"></label>
+          <input id="form__email-input" type="email" name="email" placeholder="email@company.com" required></input>
+        </div>
+        <button id="subBtn" class="form__button"> to monthly newsletter</button>
+        <span class="form__loading"></span>
+    </div>
+  </div>
+
+  <div class="success-message-container" id="successMes">
+    <div class="success__text-container">
+      <img src="./assets/images/icon-success.svg" alt="">
+      <h1 class="success__title">Thanks For subscribing</h1>
+      <p class="success__description">
+        A confirmation email has been sent to <span id="userEmail" class="user-email">ash@loremcompany.com</span>.
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+    </div>
+    <button class="success__dismiss-btn">Dismiss message</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
