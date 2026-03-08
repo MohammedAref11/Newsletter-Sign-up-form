@@ -36,7 +36,14 @@ successBtn.addEventListener('click', () => {
     input.value = "";
     loadingel.style.display = "none";
     subBtn.style.display = "inline-block";
-})
+    formCon.removeAttribute("style")
+});
+
+
+
+
+
+
 
 
 
