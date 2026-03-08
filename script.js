@@ -5,7 +5,7 @@ const errorMes = document.getElementById("errorMes");
 const successMes = document.getElementById("successMes");
 const userEmail = document.getElementById("userEmail");
 const successBtn = document.querySelector(".success__dismiss-btn");
-const loadingel = document.querySelector(".form__loading")
+const loadingel = document.querySelector(".form__loading");
 
 subBtn.addEventListener("click", () => { 
 
@@ -38,27 +38,3 @@ successBtn.addEventListener('click', () => {
     subBtn.style.display = "inline-block";
     formCon.removeAttribute("style")
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
