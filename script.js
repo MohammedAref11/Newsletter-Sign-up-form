@@ -10,11 +10,11 @@ const loadingel = document.querySelector(".form__loading");
 subBtn.addEventListener("click", () => { 
 
     let value = "";
-    const inputVal = input.value; 
+    const inputVal = input.value;
     value = inputVal;
 
-    loadingel.style.display = "block"
-    subBtn.style.display = "none"
+    loadingel.style.display = "block";
+    subBtn.style.display = "none";
 
     setTimeout(() => {
         if (value.includes("@") && value.includes("."))  { 
