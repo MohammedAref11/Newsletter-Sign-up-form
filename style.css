@@ -200,12 +200,14 @@ body {
    }
 
      .form-container { 
-      border-radius: 10px;
+        border-radius: 10px;
+        padding: 1.5rem;
      }
 
      .form__text-container { 
         border-radius: 20px;
         justify-content: center;
+        padding: 1.5em;
      }
 
      .success-message-container { 
@@ -223,7 +225,8 @@ body {
   .form-container { 
     display: flex;
     flex-direction: row-reverse;
-    padding: 1.1rem;
+    gap: 2rem;
+    padding: 1.4rem;
     border-radius: 20px;
   }
 
